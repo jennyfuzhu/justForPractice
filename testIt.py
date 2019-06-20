@@ -1,3 +1,6 @@
+
+import cmath
+"""
 #this is a comment
 
 print('hello world!')
@@ -23,6 +26,35 @@ print(sum)
 
 base = float(input("Please enter base: "))
 
-height = input("Please enter te height: ")
+height = float(input("Please enter te height: "))
 
-area =  ()
+print(base * height)
+
+#need to add math
+
+number3 = input("Write a number ")
+
+num3 = cmath.sqr(number3)
+print(num3)
+
+number4 = input("Write a second number")
+"""
+
+#function
+
+
+def multiplication(num1, num2):
+    product = num1 * num2;
+    if(product<1000):
+        return product
+    else:
+        return num1 + num2
+
+    number1 = int(input("Enter a valid numer"))
+    number2 = int(input("Entera a second number"))
+    result = multiplication(number1, number2)
+    print("The result is", result)
+
+
+
+
